@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18%;
+    height: 10vh;
+}
+
+.logo {
+    width: 18%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .search {
+    width: 10%;
+    font-size: 15px;
+    transform: rotateY(180deg);
+    color: #1b1b1b;
+}
+
+.menu nav a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #1b1b1b;
+}
+
+.menu .chart {
+    width: 13%;
+    font-size: 10px;
+    color: #1b1b1b;
+}
+
+.section1 {
+    background-image: url(/Images/h3-slider-background-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    padding: 0 18%;
+}
+
+.section1 div {
+    padding: 5rem 0;
+    width: 40%;
+}
+
+.section1 div h1 {
+    color: #1b1b1b;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.section1 div h1 span {
+    color: #FF0000;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.section1 div p {
+    color: #6D6A6A;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+}
+
+.section1 div img {
+    width: 40%;
+}
+
+.section2 {
+    width: 100%;
+    height: 130vh;
+}
+
+.section2 {
+    padding: 2rem 18%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.top .left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .left a {
+    text-decoration: none;
+    font-size: 10px;
+    color: #6D6A6A;
+}
+
+.top .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6D6A6A;
+    width: 7%;
+}
+
+.top .right i {
+    padding-bottom: 4px;
+    font-size: 10px;
+}
+
+.top .right h6 {
+    font-size: 10px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.middle .card {
+    width: 23%;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.middle .card img {
+    width: 100%;
+    transition: .8s;
+    margin-bottom: 1rem;
+}
+
+.middle .card:hover .product {
+    transform: scale(105%);
+}
+
+.middle .card h1 {
+    font-size: 10px;
+    color: #6D6A6A;
+    margin-bottom: 0.5rem;
+}
+
+.middle .card h3 {
+    font-size: 10px;
+    color: #999999;
+}
+
+.middle .card:hover .price {
+    transform: scale(130%);
+}
+.card span{
+    width: 5%;
+    font-size: 10px;
+    color: #999999;
+    font-weight: 900;
+    text-decoration:line-through;
+}
+.card div{
+    margin: 0 auto;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section3{
+    width: 100%;
+    height: 70vh;
+    padding: 2rem 18%;
+    background-color: #f7f7f7;
+}
+
+.section3 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .left3{
+    width: 50%;
+}
+.section3 .left3 iframe{
+    width: 100%;
+  
+}
+
+.section3 .right3{
+    width: 50%;
+    padding: 3rem 3rem;
+}
+.section3 ul{
+    padding-left: 1.5rem;
+    list-style:url(/Images/h1-custom-icon.png);
+    font-size: 13px;
+    color: #999999;
+}
+.section3 ul li{
+    padding-bottom: 0.5rem;
+}
+.section3 .right3 h1{
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-size: 25px;
+}
+.section3 .right3 h1 span{
+    font-weight: 300;
+    font-size: 25px;
+    color: #FF0000;
+}
+.section3 .right3 p{
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+    font-size: 13px;
+    color: #999999;
+}
+
+.section4{
+    text-align: center;
+    width: 100%;
+    padding: 2rem 18%;
+}
+.section4 .top4{
+    padding: 0 23%;
+}
+
+.section4 .top4 h1{
+    font-size: 25px;
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+.section4 .top4 h3{
+    font-size: 13px;
+    padding-bottom: 2rem;
+    font-weight: 300;
+    color: #999999;
+}
+
+.section4 .middle4{
+    display: flex;
+    justify-content: space-between;
+}
+.section4 .middle4 .card4{
+    width: 18%;
+    
+}
+
+.section4 .middle4 img{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.section4 .middle4 h1{
+    font-size: 10px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+.section4 .middle4 h3{
+    font-weight: 300;
+    color: #999999;
+    font-size: 10px;
+}
